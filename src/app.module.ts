@@ -16,7 +16,7 @@ import { CustomExceptionFilter } from './filters/custom-exception.filter';
     }),
     TypeOrmModule.forRoot({
       type: 'mongodb',
-      url: `mongodb+srv://${process.env.MONGODB_ATLAS_USERNAME}:${process.env.MONGODB_ATLAS_PASSWORD}@cluster0.c2gigor.mongodb.net/?retryWrites=true&w=majority`,
+      url: process.env.MONGODB_ATLAS_CONNECTION_STRING,
       useNewUrlParser: true,
       synchronize: true,
       logging: true,
