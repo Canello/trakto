@@ -10,3 +10,4 @@
    MONGODB_ATLAS_USERNAME=<Username do banco de dados no MongoDB Atlas>
    MONGODB_ATLAS_PASSWORD=<Senha do banco de dados no MongoDB Atlas>
    ```
+4. Executar `npm start`
